@@ -1,0 +1,77 @@
+nav, header, .contenedor, footer{
+    max-width: 92%;
+    margin: auto;
+}
+nav{
+    background-color: yellow;
+    text-align: center;
+}
+header{
+    
+    background-color: white;
+    text-align: center;
+    text-transform: capitalize; 
+    background-color: lightblue;
+    color: crimson;
+    
+}
+
+.contenedor{
+    background-color: bisque;
+}
+
+.central{
+    background-color: cornsilk;
+    text-align: center;
+    color: blue;
+    display: inline-block;
+    display: contents;
+    max-width: 65%;    
+       
+    
+}
+footer{
+    background-color: royalblue;
+    color: black;
+    text-align: center;
+    font-size: 2vmax;
+}
+aside{
+    background-color: royalblue;
+    display: inline-block;
+    max-width: 40%;
+    height: 0.10; 
+    margin-left: 72%;
+        
+}
+
+/* Menu*/
+.menu li{
+    display: inline-block;
+
+}
+li a, boton{
+    display: inline-block;
+    color: firebrick;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+}
+.listaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+    
+}
+li a:hover{
+    background-color: darkgrey;
+        
+}
