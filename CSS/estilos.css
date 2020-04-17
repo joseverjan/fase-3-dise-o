@@ -18,31 +18,35 @@ header{
 
 .contenedor{
     background-color: bisque;
+    max-height: 100vmax;
+    
+           
+
 }
 
 .central{
     background-color: cornsilk;
     text-align: center;
     color: blue;
-    display: inline-block;
     display: contents;
-    max-width: 65%;    
-       
+    max-height: 900vmax;
     
+    
+          
 }
 footer{
     background-color: royalblue;
     color: black;
     text-align: center;
     font-size: 2vmax;
+    
 }
 aside{
     background-color: royalblue;
     display: inline-block;
-    max-width: 40%;
-    height: 0.10; 
+    max-width: 150%;
     margin-left: 72%;
-        
+           
 }
 
 /* Menu*/
