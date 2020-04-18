@@ -1,23 +1,25 @@
 nav, header, .contenedor, footer{
     max-width: 92%;
     margin: auto;
+    
 }
 nav{
-    background-color: yellow;
+    background-color:#808080;
     text-align: center;
+    
 }
 header{
     
     background-color: white;
     text-align: center;
     text-transform: capitalize; 
-    background-color: lightblue;
-    color: crimson;
+    background-color:  #F0B429;
+    color:white;
     
 }
 
 .contenedor{
-    background-color: bisque;
+    background-color:#005883 ;
     max-height: 200vmax;
     
            
@@ -25,9 +27,9 @@ header{
 }
 
 .central{
-    background-color: cornsilk;
+    background-color: navy;
     text-align: center;
-    color: blue;
+    color: aliceblue;
     display: contents;
     max-height: 900vmax;
     
@@ -35,14 +37,14 @@ header{
           
 }
 footer{
-    background-color: royalblue;
+    background-color: #F0B429;
     color: black;
     text-align: center;
     font-size: 2vmax;
     
 }
 aside{
-    background-color: royalblue;
+    background-color: #F0B429;
     display: inline-block;
     max-width: 150%;
     margin-left: 72%;
@@ -56,7 +58,7 @@ aside{
 }
 li a, boton{
     display: inline-block;
-    color: firebrick;
+    color: white;
     text-align: center;
     text-decoration: none;
     padding: 0.9em 1em;
